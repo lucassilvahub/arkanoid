@@ -72,6 +72,12 @@ public class SceneAutoCreator : EditorWindow
         if (!string.IsNullOrEmpty(path)) EditorSceneManager.SaveScene(s, path);
     }
 
+    static void SafeSetTag(GameObject obj, string tagName)
+    {
+        try { obj.tag = tagName; }
+        catch { Debug.LogWarning($"Tag \"{tagName}\" não existe! Crie-a em Edit > Project Settings > Tags and Layers."); }
+    }
+
     // ===== MainMenu =====
     static void CreateMainMenu()
     {
@@ -140,6 +146,8 @@ public class SceneAutoCreator : EditorWindow
         var camera = cam.AddComponent<Camera>();
         camera.orthographic = true;
         camera.orthographicSize = 5;
+        camera.clearFlags = CameraClearFlags.SolidColor;
+        camera.backgroundColor = Color.black;
         cam.tag = "MainCamera";
         cam.transform.position = new Vector3(0, 0, -10);
 
@@ -151,7 +159,7 @@ public class SceneAutoCreator : EditorWindow
         var rbP = paddle.AddComponent<Rigidbody2D>();
         rbP.bodyType = RigidbodyType2D.Kinematic;
         paddle.AddComponent<PaddleController>();
-        paddle.tag = "Paddle";
+        SafeSetTag(paddle, "Paddle");
         paddle.transform.position = new Vector3(0, -4f, 0);
 
         // Ball
@@ -163,7 +171,7 @@ public class SceneAutoCreator : EditorWindow
         rbB.gravityScale = 0;
         rbB.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         ball.AddComponent<BallController>();
-        ball.tag = "Ball";
+        SafeSetTag(ball, "Ball");
         ball.transform.position = new Vector3(0, -3.5f, 0);
 
         // Bottom
@@ -171,9 +179,12 @@ public class SceneAutoCreator : EditorWindow
         var bc = bottom.AddComponent<BoxCollider2D>();
         bc.isTrigger = true;
         bottom.AddComponent<BottomTrigger>();
-        bottom.tag = "Bottom";
+        SafeSetTag(bottom, "Bottom");
         bottom.transform.position = new Vector3(0, -5.5f, 0);
         bottom.transform.localScale = new Vector3(20, 1, 1);
+
+        // Walls
+        CreateWalls(camera);
 
         // Canvas UI
         var canvas = CreateCanvas();
@@ -208,11 +219,37 @@ public class SceneAutoCreator : EditorWindow
                 brick.AddComponent<BoxCollider2D>();
                 var comp = brick.AddComponent<Brick>();
                 comp.points = 100;
-                brick.tag = "Brick";
+                SafeSetTag(brick, "Brick");
                 brick.transform.position = new Vector3(startX + c * xOff, startY - r * yOff, 0);
             }
         }
 
         SaveScene("Level", scene);
+    }
+
+    // ===== Walls =====
+    static void CreateWalls(Camera cam)
+    {
+        float camSize = cam.orthographicSize;
+        float aspect = 16f / 9f; // fixo 16:9 para manter proporção
+        float width = camSize * aspect;
+
+        // Left
+        var left = new GameObject("LeftWall");
+        left.AddComponent<BoxCollider2D>();
+        left.transform.position = new Vector3(-width - 0.5f, 0, 0);
+        left.transform.localScale = new Vector3(1, camSize * 2, 1);
+
+        // Right
+        var right = new GameObject("RightWall");
+        right.AddComponent<BoxCollider2D>();
+        right.transform.position = new Vector3(width + 0.5f, 0, 0);
+        right.transform.localScale = new Vector3(1, camSize * 2, 1);
+
+        // Top
+        var top = new GameObject("TopWall");
+        top.AddComponent<BoxCollider2D>();
+        top.transform.position = new Vector3(0, camSize + 0.5f, 0);
+        top.transform.localScale = new Vector3(width * 2, 1, 1);
     }
 }

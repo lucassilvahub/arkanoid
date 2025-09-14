@@ -10,7 +10,7 @@ public class PaddleController : MonoBehaviour
         transform.Translate(Vector3.right * h * speed * Time.deltaTime);
 
         // limitar movimento
-        float x = Mathf.Clamp(transform.position.x, -7.5f, 7.5f);
+        float x = Mathf.Clamp(transform.position.x, -8.5f, 8.5f);
         transform.position = new Vector3(x, transform.position.y, 0);
     }
 }
