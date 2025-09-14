@@ -66,8 +66,13 @@ public class BallController : MonoBehaviour
         // Bounce em paredes (tag "Wall")
         else if (coll.gameObject.CompareTag("Wall"))
         {
-            Vector2 normal = coll.contacts[0].normal; // normal do ponto de colisão
-            rb.velocity = Vector2.Reflect(rb.velocity, normal).normalized * speed;
+            Vector2 normal = coll.contacts[0].normal;
+            Vector2 reflected = Vector2.Reflect(rb.velocity, normal);
+
+            // Adiciona um desvio leve para dar ângulo
+            reflected.x += Random.Range(-0.2f, 0.2f);
+
+            rb.velocity = reflected.normalized * speed;
         }
         else
         {
