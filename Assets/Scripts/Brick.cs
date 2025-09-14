@@ -8,6 +8,14 @@ public class Brick : MonoBehaviour
     {
         if (c.gameObject.CompareTag("Ball"))
         {
+            Rigidbody2D ballRb = c.gameObject.GetComponent<Rigidbody2D>();
+            if (ballRb != null)
+            {
+                // Reflete a bola com base na normal do ponto de colisão
+                Vector2 normal = c.contacts[0].normal;
+                ballRb.velocity = Vector2.Reflect(ballRb.velocity, normal).normalized * ballRb.velocity.magnitude;
+            }
+
             if (GameManager.Instance != null)
             {
                 GameManager.Instance.AddScore(points);

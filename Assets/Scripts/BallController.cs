@@ -63,9 +63,15 @@ public class BallController : MonoBehaviour
             Vector2 dir = new Vector2(ratio, 1f).normalized;
             rb.velocity = dir * speed;
         }
+        // Bounce em paredes (tag "Wall")
+        else if (coll.gameObject.CompareTag("Wall"))
+        {
+            Vector2 normal = coll.contacts[0].normal; // normal do ponto de colisão
+            rb.velocity = Vector2.Reflect(rb.velocity, normal).normalized * speed;
+        }
         else
         {
-            // Corrige qualquer perda de energia nas colisões
+            // Outros objetos (blocos, etc.)
             rb.velocity = rb.velocity.normalized * speed;
         }
     }
