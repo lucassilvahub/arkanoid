@@ -151,6 +151,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &77316825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -404,6 +411,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &93355530
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -551,6 +565,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &131884761
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -698,6 +719,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &166129899
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -845,6 +873,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &173201558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -992,6 +1027,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &178138932
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1139,6 +1181,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &192661316
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1286,6 +1335,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &201455313
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1433,6 +1489,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &252179842
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1580,6 +1643,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &276579160
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1727,6 +1797,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &284948786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1874,6 +1951,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &325445226
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2021,6 +2105,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &328014111
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2168,6 +2259,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &439882901
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2315,6 +2413,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &442244354
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2462,6 +2567,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &474556603
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2609,6 +2721,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &482325453
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2756,6 +2875,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &483527349
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2903,6 +3029,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &485911246
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3050,6 +3183,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &517307608
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3197,6 +3337,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &527360166
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3344,6 +3491,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &538202495
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3491,6 +3645,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &547133854
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3744,6 +3905,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &760403432
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3891,6 +4059,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &782943310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4038,6 +4213,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &794490867
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4185,6 +4367,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &817241230
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4423,6 +4612,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &889925841
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4570,6 +4766,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &892844277
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4903,6 +5106,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &937575398
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5129,6 +5339,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &957460766
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5276,6 +5493,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1051138138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5502,6 +5726,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1067095238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5650,6 +5881,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
+  minSpeed: 8
+  maxSpeed: 18
+  paddleBounceForce: 1.2
+  wallBounceRandomness: 0.1
+  minAngle: 15
+  ballMaterial: {fileID: 0}
 --- !u!50 &1145811422
 Rigidbody2D:
   serializedVersion: 4
@@ -5664,17 +5901,17 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ae44cfdb8ca73924aa92ab3f19ee59dd, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
+  m_Interpolate: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!58 &1145811423
@@ -5687,7 +5924,7 @@ CircleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ae44cfdb8ca73924aa92ab3f19ee59dd, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -5814,6 +6051,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1162556750
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5961,6 +6205,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1164498337
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6108,6 +6359,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1248647868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6255,6 +6513,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1352398439
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6402,6 +6667,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1355399816
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6549,6 +6821,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1363291679
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6696,6 +6975,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1388716854
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6843,6 +7129,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1401571916
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7096,6 +7389,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1527251603
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7243,6 +7543,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1588342323
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7390,6 +7697,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1682939062
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7537,6 +7851,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1713152054
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7684,6 +8005,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1831093513
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7831,6 +8159,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1877071560
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8116,7 +8451,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -8153,6 +8488,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &1953881896
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8300,6 +8642,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &2017877117
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8447,6 +8796,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 100
+  hits: 1
+  isUnbreakable: 0
+  damageColors: []
+  destroyEffect: {fileID: 0}
+  flashDuration: 0.1
+  hitSound: {fileID: 0}
+  destroySound: {fileID: 0}
 --- !u!61 &2125387059
 BoxCollider2D:
   m_ObjectHideFlags: 0
